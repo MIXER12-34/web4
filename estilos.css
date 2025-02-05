@@ -1,0 +1,79 @@
+body{
+    font-family: 'Arial','sans-serif';
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: black;
+    background-color: aliceblue;
+
+}
+header{
+    text-align: center;
+    color: black;
+    background: linear-gradient(to rigth, white, white);
+    padding: 20px 10px;
+
+}
+.encabezado{
+    text-align: center;
+    color: blueviolet;
+    background-color: azure;
+    border-radius: 8px;
+}
+section{
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: azure;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5 px rgba(0, 0, 0, 0);
+
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+.habilidades
+{
+display: inline-block;
+margin: 5px 10px;
+padding: 5px 10px;
+background-color: rgba(0, 255, 255, 0.597);
+color: black;
+border-radius: 5px;
+font-weight: bold;
+font-size: 0.9em;
+}
+.fotos
+{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(to rigth, #9ce7dd, #0091a7);
+    border: 2px solid #000000;
+    border-radius: 150%;
+    overflow: hidden;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.fotos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main{
+    flex: 1;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+button{
+    color: aquamarine;
+    background-color:#000000 ;
+    text-align: center;
+
+}
